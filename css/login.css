@@ -27,8 +27,38 @@
 
 .form-content {
   border: 2px solid green;
+  min-width: 80vw;
   min-height: 65vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 0.5em;
 }
+
+.input-content {
+  width: 80vw;
+  height: 2rem;
+}
+
+.input-decoration {
+  border: none;
+  font-size: 1em;
+  border-bottom: 1px solid black;
+}
+
+.link-content {
+  text-decoration: none;
+  font-size: 0.95em;
+}
+
+input[type=email] {
+  margin: 12rem 0 2rem 0;
+}
+
+input[type=submit] {
+  margin: 4rem 0 0 0;
+  height: 2.5rem;
+  border: none;
+  font-size: 1em;
+}
+
