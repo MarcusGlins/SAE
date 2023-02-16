@@ -45,12 +45,14 @@
   border: none;
   font-size: 1em;
   border-bottom: 1px solid #98A8B6;
+  color: #98A8B6;
 }
 
 .link-content {
   text-decoration: none;
   font-size: 0.95em;
   color: #98A8B6;
+  margin-top: 15px;
 }
 
 .login {
@@ -64,6 +66,12 @@
 input[type=email] {
   margin: 12rem 0 2rem 0;
   background-color: #2A313C;
+  height: 2.5em;
+}
+
+input[type=email]:focus {
+  box-shadow: 0 0 0 0 ;
+  outline: 0;
 }
 
 input[type=email]::placeholder {
@@ -71,7 +79,10 @@ input[type=email]::placeholder {
   color: #98A8B6;
   font-weight: 300;
   letter-spacing: 0.5px;
+  margin-left: 20px;
 }
+
+
 
 input[type=submit] {
   margin: 4rem 0 0 0;
@@ -86,6 +97,12 @@ input[type=submit] {
 
 input[type=password] {
   background-color: #2A313C;
+  height: 2.5em;
+}
+
+input[type=password]:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 input[type=password]::placeholder {
